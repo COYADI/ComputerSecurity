@@ -169,5 +169,6 @@ r.sendlineafter('Which number [1 ~ 6]: ', '-34')
 pause()
 r.sendlineafter('Chose the number -35: ', str(system_first))
 
+
 r.interactive()
 

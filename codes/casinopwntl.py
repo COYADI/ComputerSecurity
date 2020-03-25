@@ -38,4 +38,5 @@ r.sendlineafter('Change the number? [1:yes 0:no]: ', '1')
 r.sendlineafter('Which number [1 ~ 6]: ', '-42')
 r.sendlineafter('Chose the number -43: ', '0')
 
+
 r.interactive()

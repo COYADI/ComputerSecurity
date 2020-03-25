@@ -10,7 +10,7 @@ warnings.simplefilter('ignore',InsecureRequestWarning)
 
 cipher_undecode = 'TLTfjOSKuooU481HiIHtOGG0QupkvgaRT9CO4Pb7y2OQtVLIuwPeZbrfL0lIcnu9CTU2VNLtZjyZDCT6Dy%2BtaV9vd03zYF%2B00SQHzV8Rc%2F2vO0mzORx0qWuNfPvjv7lW'
 cipher = list(map(int, base64.b64decode(urllib.parse.unquote(cipher_undecode))))
-#print(cipher)
+print(cipher)
 
 base = 16
 blocks = int(len(cipher) / base)

@@ -1,5 +1,4 @@
 from pwn import *
-
 context.arch = 'amd64'
 
 r = remote('edu-ctf.csie.org', 10150)

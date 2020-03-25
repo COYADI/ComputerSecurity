@@ -3,6 +3,7 @@ from sympy import *
 import random
 import os
 
+
 def op1(p, s):
     return sum([i * j for i, j in zip(s, p)]) % 256
 
